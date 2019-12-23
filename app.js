@@ -7,5 +7,11 @@ filterInput.addEventListener('keyup', filterNames);
 function filterNames() {
   // make filterInput uppercase and assign it to variable filterValue
   let filterValue = filterInput.value.toUpperCase();
-  console.log(filterValue);
+
+  // Get names <UL> get ID of it
+  let ulNames = document.querySelector('#names');
+
+  //   Get list from <UL> query selector all
+  let li = document.querySelector('li.collection-item');
+  console.log(li);
 }
