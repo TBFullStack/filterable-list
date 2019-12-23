@@ -5,5 +5,7 @@ filterInput.addEventListener('keyup', filterNames);
 
 // function
 function filterNames() {
-  console.log(1);
+  // make filterInput uppercase and assign it to variable filterValue
+  let filterValue = filterInput.value.toUpperCase();
+  console.log(filterValue);
 }
